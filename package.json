@@ -1,8 +1,8 @@
 {
-  "name": "mubsub-nbb",
+  "name": "@lkho/mubsub",
   "version": "1.5.1",
-  "description": "Pub/sub for Node.js and MongoDB, updated for mongodb 3.0.x by nodebb",
-  "homepage": "http://github.com/barisusakli/mubsub",
+  "description": "Pub/sub for Node.js and MongoDB, updated for mongodb 3.0.x",
+  "homepage": "http://github.com/lkho/mubsub",
   "author": "Scott Nelson <scott@scttnlsn.com>",
   "license": "MIT",
   "main": "./lib/index",
@@ -13,24 +13,12 @@
     "sub",
     "capped collection"
   ],
-  "contributors": [
-    {
-      "name": "Oleg Slobodskoi",
-      "email": "oleg008@gmail.com"
-    }
-  ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/barisusakli/mubsub.git"
+    "url": "git://github.com/lkho/mubsub.git"
   },
-  "dependencies": {
-    "mongodb": "^3.0.8"
-  },
-  "devDependencies": {
-    "mocha": "^2.2.5"
-  },
+  "dependencies": {},
   "scripts": {
-    "test": "mocha test --timeout 10000",
     "publish": "git push origin && git push origin --tags",
     "release:patch": "npm version patch && npm publish",
     "release:minor": "npm version minor && npm publish",
