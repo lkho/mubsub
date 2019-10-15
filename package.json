@@ -1,6 +1,6 @@
 {
   "name": "@lkho/mubsub",
-  "version": "1.5.1",
+  "version": "2.0.0",
   "description": "Pub/sub for Node.js and MongoDB, updated for mongodb 3.0.x",
   "homepage": "http://github.com/lkho/mubsub",
   "author": "Scott Nelson <scott@scttnlsn.com>",
